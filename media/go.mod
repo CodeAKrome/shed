@@ -1,4 +1,4 @@
-module media
+module github.com/CodeAKrome/shed/media
 
 go 1.23.0
 
