@@ -1,6 +1,6 @@
 # shed
 Toolshed. This repo contains my custom tools and a few others I've copied.
-## [media](https://github.com/CodeAKrome/bootcupboard/tree/main/llm-test/go-media/media)
+## [media origin](https://github.com/CodeAKrome/bootcupboard/tree/main/llm-test/go-media/media)
 List media files in a directory tree. Outputs 2 column list with file type [image,book,text,comic,video,audio] and file path.
 ### Sample
 ```
@@ -20,3 +20,9 @@ Depth: Unlimited
 Error limit: Unlimited
 Media types searched: [image book text comic video audio]
 ```
+
+---
+
+# zsh Z-shell functions and things to go into .zshrc type places
+## fzf_history.zsh
+ctrl-r allows you to fuzzy search your command history using fzf
