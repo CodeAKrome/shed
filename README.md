@@ -23,6 +23,6 @@ Media types searched: [image book text comic video audio]
 
 ---
 
-# zsh Z-shell functions and things to go into .zshrc type places
-## fzf_history.zsh
+## zsh Z-shell functions and things to go into .zshrc type places
+### fzf_history.zsh
 ctrl-r allows you to fuzzy search your command history using fzf
