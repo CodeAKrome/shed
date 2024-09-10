@@ -33,7 +33,7 @@ ctrl-r allows you to fuzzy search your command history using fzf
 ---
 
 ## flair-news
-Uses [flair](https://github.com/flairNLP/flair) to identify entities (NER) which [NewsMTSC](https://github.com/fhamborg/NewsMTSC?tab=readme-ov-file) uses to perform targetted sentiment analysis.
+Uses [flair](https://github.com/flairNLP/flair) with [ner-english-ontonotes-large](https://huggingface.co/flair/ner-english-ontonotes-large) to identify entities (NER) which [NewsMTSC](https://github.com/fhamborg/NewsMTSC?tab=readme-ov-file) uses to perform targetted sentiment analysis.
 
 ---
 
