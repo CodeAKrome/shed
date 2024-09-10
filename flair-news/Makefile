@@ -5,4 +5,4 @@ run:
 heartbeat:
 	curl http://localhost:1337/heartbeat
 test:
-	curl -X POST -H "Content-Type: application/json" -d '{"text":"Apple Inc. is planning to open a new store in New York City."}' http://localhost:1337/ner
+	curl -X POST -H "Content-Type: application/json" -d '{"text":"The 1st thing to do on Jan 1 at 5am is attend the Viking Funeral of Darth Vader in the School Gym. 1000 Rastafarians will chant 50% of the description of The Thinker for 10 dollars."}' http://localhost:1337/ner
