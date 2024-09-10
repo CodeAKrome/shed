@@ -1,7 +1,7 @@
 build:
-	docker build -t flair-ner .
+	docker build -t flair-news .
 run:
-	docker run -p 1337:1337 flair-ner
+	docker run -p 1337:1337 flair-news
 heartbeat:
 	curl http://localhost:1337/heartbeat
 test:
