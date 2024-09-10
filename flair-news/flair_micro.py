@@ -78,7 +78,7 @@ def start_service(port):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Flair Sentiment Microservice")
-    parser.add_argument('port', type=int, help='Port number to run the service on')
+    parser.add_argument('port', type=int, default=1337, help='Port number to run the service on. Defaults to 1337.')
     args = parser.parse_args()
     
     start_service(args.port)
